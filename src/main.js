@@ -3,8 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
-Vue.config.productionTip = false
+import axios from 'axios'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+import Common from '@/assets/js/utils.js'
+Vue.use(MintUI)
+Vue.use(Common)
+import './assets/css/reset.css'
+require('animate.css')
 
 /* eslint-disable no-new */
 new Vue({
